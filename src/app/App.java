@@ -1,3 +1,4 @@
+package app;
 import java.util.Stack;
 import utils.QueuePalindrome;
 import utils.SignValidator;
@@ -44,8 +45,8 @@ public class App {
         QueuePalindrome queuePalindrome = new QueuePalindrome();
 
         System.out.println("\nEjercicio 03: Palíndromo usando Colas");
-        System.out.println("Pedrito| Resultado: " + queuePalindrome.isPalindrome("ana"));
-        System.out.println("Miguel construye un ventilador| Resultado: " + queuePalindrome.isPalindrome("radar"));
+        System.out.println("Isaac no ronca asi| Resultado: " + queuePalindrome.isPalindrome("ana"));
+        System.out.println("Anita lava la tina| Resultado: " + queuePalindrome.isPalindrome("radar"));
         System.out.println("David utiliza java | Resultado: " + queuePalindrome.isPalindrome("java"));
     }
 }
