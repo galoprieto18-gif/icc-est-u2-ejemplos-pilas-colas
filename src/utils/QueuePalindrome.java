@@ -18,10 +18,10 @@ public class QueuePalindrome {
             cola2.offer(texto.charAt(i));
         }
         while(!cola1.isEmpty()){
-            if(cola1.poll().equals(cola2.poll())){
-                return true;
+            if(!cola1.poll().equals(cola2.poll())){
+                return false;
             }  
         }  
-        return false;
+        return true;
     }
 }
