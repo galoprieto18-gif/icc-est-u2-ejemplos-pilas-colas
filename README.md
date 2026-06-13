@@ -63,7 +63,7 @@ Se usaran dos métodos que transformen el texto, para realizar la comparación.
 ![alt text](assets/image-7.png)
 
 ## **URL del Release:**
-
+[Ver Release](https://github.com/galoprieto18-gif/icc-est-u2-ejemplos-pilas-colas/releases/tag/v2.0.2)
 
 ## **CONCLUSIONES:**
 
