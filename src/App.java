@@ -46,7 +46,7 @@ public class App {
         System.out.println("\nEjercicio 03: Palíndromo usando Colas");
         System.out.println("Pedrito| Resultado: " + queuePalindrome.isPalindrome("ana"));
         System.out.println("Miguel construye un ventilador| Resultado: " + queuePalindrome.isPalindrome("radar"));
-        System.out.println("David utiliza java| Resultado: " + queuePalindrome.isPalindrome("java"));
+        System.out.println("David utiliza java | Resultado: " + queuePalindrome.isPalindrome("java"));
     }
 }
 
