@@ -44,9 +44,9 @@ public class App {
         QueuePalindrome queuePalindrome = new QueuePalindrome();
 
         System.out.println("\nEjercicio 03: Palíndromo usando Colas");
-        System.out.println("ana   | Resultado: " + queuePalindrome.isPalindrome("ana"));
-        System.out.println("radar | Resultado: " + queuePalindrome.isPalindrome("radar"));
-        System.out.println("java  | Resultado: " + queuePalindrome.isPalindrome("java"));
+        System.out.println("Pedrito| Resultado: " + queuePalindrome.isPalindrome("ana"));
+        System.out.println("Miguel construye un ventilador| Resultado: " + queuePalindrome.isPalindrome("radar"));
+        System.out.println("David utiliza java| Resultado: " + queuePalindrome.isPalindrome("java"));
     }
 }
 

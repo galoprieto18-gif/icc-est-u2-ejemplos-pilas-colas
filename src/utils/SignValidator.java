@@ -5,7 +5,7 @@ import java.util.LinkedList;
 public class SignValidator {
     
     public boolean isValid(String s){
-    
+        
     LinkedList<Character> pila = new LinkedList<Character>();
     for (char signo : s.toCharArray()){
         if (signo == '(' || signo == '{' || signo == '['){
@@ -19,8 +19,7 @@ public class SignValidator {
                 (signo == '}' && ultimoSigno != '{') ||
                 (signo == ']' && ultimoSigno != '[')){
                 return false;
-            }
-            
+            }   
         }
     }
     return pila.isEmpty();

@@ -19,9 +19,9 @@ public class QueuePalindrome {
         }
         while(!cola1.isEmpty()){
             if(cola1.poll().equals(cola2.poll())){
-                return false;
+                return true;
             }  
         }  
-        return true;
+        return false;
     }
 }
